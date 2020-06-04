@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+              name="viewport"
+              content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"
+            />
+        <meta name="title" content="MiII3r's Homepage" />
+        <meta name="description" content="Welcome to MiII3r's Homepage" />
+
+        <!-- Open Graph -->
+        <meta name="title" content="MiII3r's Homepage" />
+        <meta name="description" content="MiII3r's Homepage" />
+        <meta property="og:title" content="MiII3r's Homepage" />
+        <meta property="og:description" content="MiII3r's Homepage" />
+        <meta property="og:site_name" content="MiII3r's Homepage" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1542242476-5a3565835a38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" />
+
+        <!-- Favicon -->
+        <meta name="shortcut icon" href="./images/favicon.png" type="image/png" />
+        <link rel="icon" href="./images/favicon.png" type="image/png" />
+
+        <title>MiII3r's Homepage</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="./css/vendor/uikit.min.css" />
+        <link rel="stylesheet" type="text/css" href="./css/vendor/uikit-rtl.min.css" />
+        <link rel="stylesheet" type="text/css" href="./css/custom.css" />
+        <script src="./js/vendor/uikit.min.js"></script>
+        <script src="./js/vendor/uikit-icons.min.js"></script>
+        <script src="./js/custom.js"></script>
+
+        <!-- Javascript -->
+        <script src="./js/vendor/uikit.min.js"></script>
+        <script src="./js/vendor/uikit-icons.min.js"></script>
+        <script src="./js/custom.js"></script>
+    </head>
+	<body>
+		<!-- Container -->
+		<div class="container">
+			<div class="content">
+				<div onclick="rotateCard(event)" id="MiII3r" class="cards">
+					<div class="front-card front">
+                        <div class="left-flex">
+                            <h1 class="tg-bold">MiII3r's Homepage</h1>
+                            <h4 class="tg-normal">MiII3r</h4>
+                        </div>
+                        <div class="circle">
+                            <span uk-icon"icon: more-vertical; ratio; 2"></span>
+                        </div>
+                    </div>
+					<div class="back-card back">
+						<article class="letter-text">
+							<div style="text-align: start;">
+								내용
+							</div>
+							<div style="text-align: end;">From. MiII3r</div>
+						</article>
+                    </div>
+				</div>
+			</div>
+			<div class="spacing-small"></div>
+			<!-- Social Share -->
+			<div class="social">
+				<a uk-tooltip="페이스북 공유하기!" onclick="shareFacebook(event)" class="uk-icon-button" uk-icon="facebook"></a>
+				<div class="spacing-small"></div>
+				<a uk-tooltip="트위터 공유하기!" onclick="shareTwitter(event)" class="uk-icon-button" uk-icon="twitter"></a>
+				<div class="spacing-small"></div>
+				<a uk-tooltip="카카오스토리 공유하기!" onclick="shareKakaoStory(event)" class="uk-icon-button" uk-icon="social"></a>
+			</div>
+		</div>
+	</body>
+</html>
